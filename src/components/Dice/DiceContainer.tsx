@@ -34,7 +34,7 @@ const DiceContainer = () => {
 
   return (
     <div className="flex flex-col items-center gap-8">
-      <div className="grid grid-cols-5 gap-x-12 gap-y-2">
+      <div className="grid grid-cols-5 gap-x-4 gap-y-4">
         {diceNumbers &&
           diceNumbers.map((number, index) => (
             <Die
